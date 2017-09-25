@@ -1,0 +1,10 @@
+# ladbclinicmysql
+
+```
+LOAD DATA LOCAL INFILE 'C:\\Users\\1.csv'
+INTO TABLE table_name
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+INGORE 1 LINES;
+```
